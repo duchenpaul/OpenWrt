@@ -34,5 +34,6 @@
 	set record="/root/Mail/mail/sent"
 
 4.send mail:
+	
 	echo "邮件内容" |  /usr/bin/mutt  -s "邮件标题" "qq859755014@126.com"
 
