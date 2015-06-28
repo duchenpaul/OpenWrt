@@ -49,7 +49,7 @@ C. USB serial adapter support:
     opkg install kmod-usb-serial coreutils-stty
     opkg install kmod-usb-serial-pl2303 # for Prolific PL2303-based devices
     opkg install kmod-usb-acm # for devices using Abstract Control Model (ACM)
-# reboot here
+    # reboot here
     cat /dev/ttyUSB0 # view data coming to the serial port
     stty -F /dev/ttyUSB0 -a # view serial port settings
 
