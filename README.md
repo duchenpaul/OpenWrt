@@ -14,7 +14,7 @@
 	syslog LOG_MAIL
 	logfile /var/log/msmtp.log
 
-3.edit file   ~/muttrc
+3.edit file   ~/muttrc or /etc/Muttrc
 
 	set charset="utf-8"
 	
